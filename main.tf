@@ -74,7 +74,7 @@ module "secgroup_egress" {
 }
 
 module "keys_pair" {
-  source = "./modules/tks_key"
+  source = "./modules/tls_key"
 }
 
 module "windows_instance" {
